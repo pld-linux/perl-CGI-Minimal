@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	CGI
-%define	pnam	Minimal
+%define		pdir	CGI
+%define		pnam	Minimal
 Summary:	CGI::Minimal - a lightweight CGI form processing package
 Summary(pl):	CGI::Minimal - lekki pakiet do przetwarzania formularzy CGI
 Name:		perl-CGI-Minimal
