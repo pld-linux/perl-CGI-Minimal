@@ -8,13 +8,13 @@
 Summary:	CGI::Minimal - a lightweight CGI form processing package
 Summary(pl):	CGI::Minimal - lekki pakiet do przetwarzania formularzy CGI
 Name:		perl-CGI-Minimal
-Version:	1.14
+Version:	1.15
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	c255b9a422707366e243b509e7d18c49
+# Source0-md5:	727c9dd431a00aea09858278de23dbba
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
@@ -71,4 +71,5 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc Changes README TODO
 %{perl_vendorlib}/CGI/Minimal.pm
+%{perl_vendorlib}/CGI/Minimal
 %{_mandir}/man3/*
