@@ -8,13 +8,13 @@
 Summary:	CGI::Minimal - a lightweight CGI form processing package
 Summary(pl):	CGI::Minimal - lekki pakiet do przetwarzania formularzy CGI
 Name:		perl-CGI-Minimal
-Version:	1.16
+Version:	1.24
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	6e9e5079db22e7dd1cbfdb79162d333b
+# Source0-md5:	38d498c34c89c0ed0fda86345ff20616
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
@@ -23,8 +23,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 This package provides a micro-weight alternative to the CPAN CGI.pm
 module. Rather than attempt to address every possible need of a CGI
-programmer, it provides the _minimum_ functions needed for CGI such
-as form decoding (including file upload forms), URL encoding and
+programmer, it provides the _minimum_ functions needed for CGI such as
+form decoding (including file upload forms), URL encoding and
 decoding, HTTP usable date generation (RFC1123 compliant dates) and
 _basic_ escaping and unescaping of HTMLized text.
 
@@ -63,6 +63,8 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
+
+rm -f $RPM_BUILD_ROOT%{perl_vendorlib}/CGI/Minimal.pod
 
 %clean
 rm -rf $RPM_BUILD_ROOT
