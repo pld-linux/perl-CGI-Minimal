@@ -6,7 +6,7 @@
 %define		pdir	CGI
 %define		pnam	Minimal
 Summary:	CGI::Minimal - a lightweight CGI form processing package
-Summary(pl):	CGI::Minimal - lekki pakiet do przetwarzania formularzy CGI
+Summary(pl.UTF-8):   CGI::Minimal - lekki pakiet do przetwarzania formularzy CGI
 Name:		perl-CGI-Minimal
 Version:	1.25
 Release:	1
@@ -33,18 +33,18 @@ module. No provision is made for generating HTTP or HTML on your
 behalf - you are expected to be conversant with how to put together
 any HTML or HTTP you need.
 
-%description -l pl
-Ten pakiet dostarcza bardzo lekk± alternatywê dla modu³u CPAN CGI.pm.
-Zamiast próbowaæ sprostaæ wszelkim mo¿liwym potrzebom programisty CGI,
-ten modu³ dostarcza _minimalne_ funkcje potrzebne dla CGI, takie jak
-dekodowanie formularzy (w³±cznie z przysy³aniem plików), kodowanie i
-dekodowanie URL-i, generowanie u¿ytecznego w HTTP formatu daty
-(zgodnego z RFC1123) oraz _podstawowe_ traktowanie znaków specjalnych
-(escape/unescape) w tek¶cie HTML.
+%description -l pl.UTF-8
+Ten pakiet dostarcza bardzo lekkÄ… alternatywÄ™ dla moduÅ‚u CPAN CGI.pm.
+Zamiast prÃ³bowaÄ‡ sprostaÄ‡ wszelkim moÅ¼liwym potrzebom programisty CGI,
+ten moduÅ‚ dostarcza _minimalne_ funkcje potrzebne dla CGI, takie jak
+dekodowanie formularzy (wÅ‚Ä…cznie z przysyÅ‚aniem plikÃ³w), kodowanie i
+dekodowanie URL-i, generowanie uÅ¼ytecznego w HTTP formatu daty
+(zgodnego z RFC1123) oraz _podstawowe_ traktowanie znakÃ³w specjalnych
+(escape/unescape) w tekÅ›cie HTML.
 
-Interfejs do dekodowania formularzy jest czê¶ciowo kompatybilny z
-modu³em CGI.pm. Natomiast nie ma generowania HTTP czy HTML za
-programistê - to on ma wiedzieæ, jak umie¶ciæ potrzebny mu HTML czy
+Interfejs do dekodowania formularzy jest czÄ™Å›ciowo kompatybilny z
+moduÅ‚em CGI.pm. Natomiast nie ma generowania HTTP czy HTML za
+programistÄ™ - to on ma wiedzieÄ‡, jak umieÅ›ciÄ‡ potrzebny mu HTML czy
 HTTP.
 
 %prep
