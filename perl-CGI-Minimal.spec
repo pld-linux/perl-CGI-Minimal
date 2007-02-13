@@ -6,7 +6,7 @@
 %define		pdir	CGI
 %define		pnam	Minimal
 Summary:	CGI::Minimal - a lightweight CGI form processing package
-Summary(pl.UTF-8):   CGI::Minimal - lekki pakiet do przetwarzania formularzy CGI
+Summary(pl.UTF-8):	CGI::Minimal - lekki pakiet do przetwarzania formularzy CGI
 Name:		perl-CGI-Minimal
 Version:	1.25
 Release:	1
