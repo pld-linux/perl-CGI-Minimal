@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	CGI
 %define		pnam	Minimal
 Summary:	CGI::Minimal - a lightweight CGI form processing package
